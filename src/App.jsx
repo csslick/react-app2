@@ -8,24 +8,24 @@ function App() {
         name: "홍길동",
         address: "구로동"
     }
-  // JSX
-  return (
-    <>
-        <Header />
-        {/* 아래 코드를 Main이라는 이름의 컴퍼넌트로 만들기 */}
-      <section>
-        <p>처음 작성하는 리액트 문서</p>
-        <p>{name}의 나이는 {age}입니다.</p>
-            <ul>
-                <li>{음식메뉴[0]}</li>
-                <li>{음식메뉴[1]}</li>
-                <li>{음식메뉴[2]}</li>
-            </ul>
-            <p>{userInfo.name}님의 주소는 {userInfo.address}입니다.</p>
-            <p>코드수정</p>
-      </section>
-    </>
-  )
+    // JSX
+    return (
+        <>
+            <Header />
+            {/* 아래 코드를 Main이라는 이름의 컴퍼넌트로 만들기 */}
+            <section>
+                <p>처음 작성하는 리액트 문서</p>
+                <p>{name}의 나이는 {age}입니다.</p>
+                <ul>
+                    <li>{음식메뉴[0]}</li>
+                    <li>{음식메뉴[1]}</li>
+                    <li>{음식메뉴[2]}</li>
+                </ul>
+                <p>{userInfo.name}님의 주소는 {userInfo.address}입니다.</p>
+                <p>코드수정</p>
+            </section>
+        </>
+    )
 }
 
 // 기본 모듈로 App함수를 내보냄
