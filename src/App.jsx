@@ -22,6 +22,7 @@ function App() {
                 <li>{음식메뉴[2]}</li>
             </ul>
             <p>{userInfo.name}님의 주소는 {userInfo.address}입니다.</p>
+            <p>코드수정</p>
       </section>
     </>
   )
